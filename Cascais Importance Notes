@@ -1,0 +1,48 @@
+CSS Cascade Rules
+1) External Style Sheet
+2) Internal Styles
+
+4 Broad Categories
+4) Position
+3) Specificity
+2) Type
+1) Importance
+
+Specificity
+4) Element
+3) Class
+2) Attribute
+1) Id
+
+Type
+3) External
+2) Internal
+1) Inline - Most Important
+
+Importance
+color: red;
+color: green !important;
+!important would be more important
+
+
+Code In Slide
+
+Position
+li {
+color: red; color:
+}
+
+Specificity
+li {color: blue;}
+•first-class {color: red;} 
+li [draggable] { color: purple;} 
+#first-id {color: orange;}
+
+Type
+<link rel="stylesheet" href="./style.css">
+<style> </style> 
+<h1 style=" ">Hello</h1>
+
+Importance
+color: red:
+color: green !important;
