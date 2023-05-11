@@ -1,0 +1,20 @@
+
+<!-- Set a class -->
+.note {
+  font-size: 20px;
+}
+
+/* Set element with an id of "id-selector-demo" to "color: green" TODO 3 */
+#id-selector-demo {
+  color: green;
+}
+
+/* Set li elements that have the "value" attribute set to "4" to have "color: blue" TODO 4 */
+li[value="4"] {
+  color: blue;
+}
+
+/* Center all elements with center text align TODO 5 */
+* {
+  text-align: center;
+}

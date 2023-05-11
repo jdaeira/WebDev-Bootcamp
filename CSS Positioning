@@ -1,0 +1,16 @@
+Static Positioning
+- Goes at the end of the previous element  
+
+Releative Positioning
+- Position relative to defauly position
+- Takes the static postition and moves it where you want to
+
+Absolute Positioning
+- Position relative to the nearest position ancestor or top left corner of webpage
+- Moves with the webpage
+
+Fixed Postitioning
+- Position relative to top left corner of browser window
+- Doesn't move with the webpage
+
+
