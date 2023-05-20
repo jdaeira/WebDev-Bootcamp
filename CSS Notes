@@ -1,0 +1,134 @@
+<!-- Section 6 - CSS Basics -->
+<!-- Set a class -->
+.note {
+  font-size: 20px;
+}
+
+/* Set element with an id of "id-selector-demo" to "color: green" TODO 3 */
+#id-selector-demo {
+  color: green;
+}
+
+/* Set li elements that have the "value" attribute set to "4" to have "color: blue" TODO 4 */
+li[value="4"] {
+  color: blue;
+}
+
+/* Center all elements with center text align TODO 5 */
+* {
+  text-align: center;
+}
+
+<!-- Section 7 - Speciaficity and Inheritance -->
+CSS Cascade Rules
+1) External Style Sheet
+2) Internal Styles
+
+4 Broad Categories
+4) Position
+3) Specificity
+2) Type
+1) Importance
+
+Specificity
+4) Element
+3) Class
+2) Attribute
+1) Id
+
+Type
+3) External
+2) Internal
+1) Inline - Most Important
+
+Importance
+color: red;
+color: green !important;
+!important would be more important
+
+
+Code In Slide
+
+Position
+li {
+color: red; color:
+}
+
+Specificity
+li {color: blue;}
+•first-class {color: red;} 
+li [draggable] { color: purple;} 
+#first-id {color: orange;}
+
+Type
+<link rel="stylesheet" href="./style.css">
+<style> </style> 
+<h1 style=" ">Hello</h1>
+
+Importance
+color: red:
+color: green !important;
+
+
+<!-- Section 7 - CSS Selectors -->
+These examples are in Exercise 7.1
+
+Combining by Group
+<!-- Combines two selectors -->
+selector, selector {
+    color: blueviolet;
+}
+
+Combining by Child
+<!-- First is the parent and then the child. Can only be one level deep -->
+selector > selector {
+    color: firebrick;
+}
+
+Combining by Descendant
+<!-- First the ancestor and then the descendant -->
+selector selector {
+    color: blue;
+}
+
+Combining by Chaining
+<!-- Apply where all selectors are true -->
+<!-- When Combining the element should go first -->
+selectorselector {
+    color: seagreen;
+}
+
+Combining Combiners
+<!--  -->
+selector selectorselector {
+    font-size: 2rem;
+}
+
+
+<!-- Section 7 - CSS Positioning -->
+Static Positioning
+- Goes at the end of the previous element  
+
+Releative Positioning
+- Position relative to defauly position
+- Takes the static postition and moves it where you want to
+
+Absolute Positioning
+- Position relative to the nearest position ancestor or top left corner of webpage
+- Moves with the webpage
+
+Fixed Postitioning
+- Position relative to top left corner of browser window
+- Doesn't move with the webpage
+
+<!-- Section 8 Display -->
+display: block - will take up the full width of the page
+display: inline - will into the same line
+(Will only set to the size of the content)
+display: inline-block - block can set height and width and can elements on the same line
+display: none - will make the element disappear
+
+<!-- Section 8 Float -->
+float: left - so that text is on the right or to put an element on the left
+float: right - so that text or is on the left or to put an element on the right
+for footer clear: both;
