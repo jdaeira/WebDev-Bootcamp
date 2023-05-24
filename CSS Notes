@@ -142,5 +142,7 @@ for footer clear: both;
 Different Examples are in the 8.2 lesson.
 
 <!-- <!-- Section 8.3 Media Query --> -->
+max-width: targets smaller screens
+min-width: targets bigger screens
 
 
