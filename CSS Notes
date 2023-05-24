@@ -19,7 +19,7 @@ li[value="4"] {
   text-align: center;
 }
 
-<!-- Section 7 - Speciaficity and Inheritance -->
+<!-- Section 7.0 - Speciaficity and Inheritance -->
 CSS Cascade Rules
 1) External Style Sheet
 2) Internal Styles
@@ -70,7 +70,7 @@ color: red:
 color: green !important;
 
 
-<!-- Section 7 - CSS Selectors -->
+<!-- Section 7.1 - CSS Selectors -->
 These examples are in Exercise 7.1
 
 Combining by Group
@@ -105,7 +105,7 @@ selector selectorselector {
 }
 
 
-<!-- Section 7 - CSS Positioning -->
+<!-- Section 7.2 - CSS Positioning -->
 Static Positioning
 - Goes at the end of the previous element  
 
@@ -121,14 +121,26 @@ Fixed Postitioning
 - Position relative to top left corner of browser window
 - Doesn't move with the webpage
 
-<!-- Section 8 Display -->
+<!-- Section 8.0 Display -->
 display: block - will take up the full width of the page
 display: inline - will into the same line
 (Will only set to the size of the content)
 display: inline-block - block can set height and width and can elements on the same line
 display: none - will make the element disappear
 
-<!-- Section 8 Float -->
+<!-- Section 8.1 Float -->
 float: left - so that text is on the right or to put an element on the left
 float: right - so that text or is on the left or to put an element on the right
 for footer clear: both;
+
+<!-- Section 8.2 Responsive Website -->
+
+@media (max-width) {
+  <!-- CSS for screens below or equal to 600px wide -->
+}
+
+Different Examples are in the 8.2 lesson.
+
+<!-- <!-- Section 8.3 Media Query --> -->
+
+
