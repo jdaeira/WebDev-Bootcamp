@@ -9,43 +9,79 @@ body {
 .main {
   flex: 1;
 }
-
-.left {
-  border: 2px solid black;
-  float: left;
-  width: 48%;
-}
-
-.right {
-  border: 2px solid black;
-  float: right;
-  width: 48%;
-}
-
-.left .tile-image {
-  float: left;
-}
-
-.right .tile-image {
-  float: left;
-}
-
-.tile-image {
-  /* max-width: 35%; */
-  height: 200px;
-  float: left;
-  margin-right: 50px;
+@media (min-width:681px) {
+  .left {
+    float: left;
+    width: 48%;
+  }
   
+  .right {
+    float: right;
+    width: 48%;
+  }
+  
+  .left .tile-image {
+    float: left;
+  }
+  
+  .right .tile-image {
+    float: left;
+  }
+  
+  .tile-image {
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+  }
 }
-
-/* img {
-  overflow-clip-margin: content-box;
-  overflow: clip;
-} */
 
 h1 {
   font-size: 5rem;
   text-align: center;
+}
+
+@media(max-width:680px) {
+  .logo {
+    width: 100px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+  
+  
+
+  /* .left {
+    display: block;
+  }
+
+  .right {
+    display: block;
+  }
+
+  .tile-image {
+    height: 200px;
+  }
+
+  .card-title {
+    margin: 0px;
+  } */
+ 
 }
 
 footer {
@@ -53,4 +89,3 @@ footer {
   color: midnightblue;
   clear: both;
 }
-
