@@ -16,6 +16,28 @@
   }
 }
 
+.btn-primary {
+  color: black;
+  background-color: #F8F9FA;
+  border: none;
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: #c6c7c8;
+}
+
+.btn-outline-secondary {
+  color: #F8F9FA;
+  border-color: #F8F9FA;
+}
+
+.btn-outline-secondary:hover {
+  color: black;
+  background-color: #F8F9FA;
+}
+
+
 .icon-square {
   width: 3rem;
   height: 3rem;
