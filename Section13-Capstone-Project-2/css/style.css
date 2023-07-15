@@ -1,0 +1,38 @@
+.header {
+    display: grid;
+    height: 50vh;
+    background-color: #f7f6f5;
+    grid-template-columns: 1.5fr 2fr 1.5fr;
+    grid-template-rows: 200px 310px 200px;
+}
+
+.blob2 {
+    grid-column-end: 4;
+    grid-row-end: 4;
+}
+
+.description {
+    grid-column-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blobimg {
+    float: right;
+}
+
+.name {
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.occupation {
+    text-align: center;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
