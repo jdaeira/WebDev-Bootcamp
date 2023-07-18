@@ -36,3 +36,10 @@
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
+hr {
+    width: 10%;
+    border-style: dotted none none;
+    border-width: 6px;
+    border-color: #b1baba;
+    margin: auto;
+}
