@@ -43,3 +43,13 @@ hr {
     border-color: #b1baba;
     margin: auto;
 }
+
+.hobbies {
+    max-width: 60%;
+    height: auto;
+}
+
+.work {
+    max-width: 75%;
+    height: auto;
+}
