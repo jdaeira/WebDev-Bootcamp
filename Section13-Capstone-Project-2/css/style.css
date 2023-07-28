@@ -53,3 +53,19 @@ hr {
     max-width: 75%;
     height: auto;
 }
+
+.contact {
+    color: #ffffff;
+    background-color: #A32531;
+    border-color: #A32531;
+}
+
+.contact:hover {
+    color: #ffffff!important;
+    background-color: #C03946!important;
+    border-color: #C03946!important;
+}
+
+.footer {
+    background-color: #F7F6F5;
+}
